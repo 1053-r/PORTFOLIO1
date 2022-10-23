@@ -1,0 +1,129 @@
+:root{
+    --Primary-bg:#131313;
+    --Secondary-bg:#212121;
+    --head-titles:#fb2171;
+    --head-titles-2: #27f897;
+    --head-titles-3: #8a21fb;
+    --Hover-1: #a212fc;
+    --light: #e6cdb5;
+    --border-1:#333333;
+    --border-2:#1b1b1b;
+    --hamb-shdw:#2a2929;
+    --hamb-spans:#FC3C8F;
+    --hamb-spans-2:#ff74b0;
+    --hamb-spans-3:#fd91c0;
+    --logo-glow-1:#ff5aac;
+    --logo-glow-2:#FC3C8F;
+}
+
+
+                            /*-------------------------------------*/
+
+.hero__container{
+    color: white;
+    background:linear-gradient(45deg ,#e12255,#d62e8a, #8941ad)  ;
+}
+
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 4rem 2rem;
+}
+
+.hero__intro{
+    background: linear-gradient(45deg , #fb4b8e, #b0cbf7);
+    border-radius: 15px;
+    box-shadow: 5px 3px 30px #d792e7;
+}
+
+.hero__name{
+        transform: rotateY(32deg) rotateX(32deg);
+}
+
+.hero__name--p{
+    position: relative;
+    padding: 1rem 1rem 0 ;
+    font-size: 20px;
+}
+
+a.hero__J{color: black;}
+
+.cat__p{
+    padding: 0 0 0 .5rem;
+    font-family: 'Shrikhand', cursive;
+    font-size: 5rem;
+    color: #0d1e54;
+    -webkit-text-stroke:4px #ffffff;
+    mix-blend-mode: color-burn;
+}
+
+.br{display: block;margin-bottom: -2rem;}
+
+.bottom__hero--section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 0 2rem 6rem ;
+}
+
+.hero__work{
+    font-weight: 700;
+}
+
+.hero__social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+
+
+.hero__separator:nth-child(1){
+    color: white;
+    height: 0;
+    width: 250px;
+}
+
+.hero__separator-2{
+    color: white;
+    height: 0;
+    width: 50px;
+}
+
+
+
+                            /*gradient-bg*/
+
+#gradient-canvas {
+    width: 100%;
+    height: 77vh;
+
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 75%, 100% 45%);
+
+    --gradient-color-1: #dcdcdc; 
+    --gradient-color-2: #e8175d; 
+    --gradient-color-3: #a8a7a7;
+    --gradient-color-4: #e12255;
+}
+
+
+                            /*--------------------------*/
+
+.before__hero{
+background: transparent;
+padding: 3rem;
+}
+
+
+.after__header{
+background-color: var(--Secondary-bg);
+}  
+
+
+
