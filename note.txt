@@ -1,0 +1,92 @@
+HIRE ME SECTION + header responsibility for tablets need some work
+
+header-links/nav links li a / add list animation with the trick saved on phone gallery
+
+the footer social links hover need fixing
+
+
+
+
+
+the hero section is just a place holder 
+
+
+old hero section
+                  <!--before hero (header rest) section-->
+                  <div class="before__hero"></div>
+                  <canvas id="gradient-canvas" data-transition-in ></canvas>
+                  <!--hero section-->
+    <section class="hero__container">
+      <div class="hero__wrapper">
+        <div class="hero__intro">
+            <div class="hero__name">
+              <p class="hero__name--p">my name is <a href="#" class="hero__J">-Jassem'-</a></p>
+            </div>
+            <div class="exp__build"><p class="cat__p" >I build <span class="br"></span> experiences</p></div>
+        </div>
+        <img class="my-portrait" src="/" alt="*My-portrait goes here*">
+      </div>
+      <div class="bottom__hero--section">
+        <p class="hero__work">I offer you the best experience </br> for your users</p>
+        <div class="hero__social">
+          <hr class="hero__separator">
+          <div class="footer--social__icons">
+            <a href="#" class="footer--social__icon--link footer--social__hover1" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="#" class="footer--social__icon--link footer--social__hover2" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#" class="footer--social__icon--link footer--social__hover3">
+              <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="#" class="footer--social__icon--link footer--social__hover4">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <hr class="hero__separator-2">
+        </div>
+      </div>
+      </section>
+
+
+
+
+
+
+
+
+
+3d card :
+
+
+.card {
+  position: relative;
+  width: 9rem; height: 12rem;
+  perspective: 500px;
+  margin:5vh auto;
+}
+.cardFront, .cardBack {
+  position: absolute;
+  width: 100%; height: 100%;
+  transition: transform 1s;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+.cardFront { 
+  background-color: #66ccff; 
+}
+.cardBack { 
+  background-color: #dd8800; 
+  transform: rotateY(180deg); 
+}
+.card:hover .cardFront{ transform: rotateY(180deg); }
+.card:hover .cardBack { transform: rotateY(360deg); }
+
+<div class="card">
+  <div class="front"><span>Front</span></div>
+  <div class="back"><span>Back</span></div>
+</div>
