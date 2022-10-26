@@ -90,3 +90,38 @@ old hero section
   <div class="front"><span>Front</span></div>
   <div class="back"><span>Back</span></div>
 </div>
+
+    animation: services-i 7s infinite;
+
+
+@keyframes services-i {
+    0%{color: var(--head-titles-2);
+        text-shadow: 0 0 10px var(--head-titles-2);
+        border: 1px solid var(--head-titles-2);
+    }
+    20%{color: var(--head-titles-2);
+        text-shadow: 0 0 10px var(--head-titles-2);
+        border: 1px solid var(--head-titles-2);
+    }
+    40%{color: #278cf8;
+        text-shadow: 0 0 10px #278cf8;
+        border: 1px solid #278cf8;
+    }
+    50%{color: #a827f8;
+        text-shadow: 0 0 10px #a827f8;
+        border: 1px solid #a827f8;
+    }
+    60%{color: #f8279a;
+        text-shadow: 0 0 10px #f8279a;
+        border: 1px solid #f8279a;
+    }
+    70%{color: #273cf8;
+        text-shadow: 0 0 10px #273cf8;
+        border: 1px solid #273cf8;
+    }
+    100%{color: var(--head-titles-2);
+        text-shadow: 0 0 10px var(--head-titles-2);
+        border: 1px solid var(--head-titles-2);
+    }
+    
+}

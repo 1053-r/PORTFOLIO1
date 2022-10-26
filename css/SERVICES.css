@@ -85,9 +85,27 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 70%;
     margin: .5rem 0;
 }
+
+.services-i{
+    position: absolute;
+    transform: translateY(-1.5rem);
+    border-radius: 3px;
+    border: 1px solid var(--head-titles-2);
+    color: var(--head-titles-2);
+    text-shadow: 0 0 10px var(--head-titles-2);
+    scale: 1.2;
+    padding: 1px 1.5px;
+    background: var(--Secondary-bg);
+    box-shadow: inset -5px -5px 10px #171717,
+                inset 5px 5px 10px #2b2a2a;
+    transform-style: preserve-3d;
+
+}
+
+.card:hover .services-i{color: none ; border: none;}
 
 .card{
     min-height: 220px;width:320px;
