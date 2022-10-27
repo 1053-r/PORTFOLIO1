@@ -136,8 +136,8 @@
 .card:hover .i-front{
     border: 1px solid var(--head-titles-2);
     transform: translateY(-1.1rem);
-    transition: 1.5s ease;
-    transition-delay: 1.5s;
+    transition: 1s ease;
+    transition-delay: 1s;
 }
 
 .i-back{
@@ -145,6 +145,9 @@
     transform: translateY(-1.1rem);
     text-shadow: 0 0 10px var(--head-titles);
     color: var(--head-titles);
+    transition: 1s ease;
+    transition-delay: 1.2s;
+
 }
 
 .card:hover .i-back{
@@ -152,8 +155,8 @@
     position: absolute;
     border: 1px solid var(--head-titles);
     transform: translateY(-1.5rem);
-    transition: 1.5s ease;
-    transition-delay: 1.5s;
+    transition: 1.5s;
+    transition-delay: 1.2s;
 }
 
 .card {
