@@ -104,6 +104,10 @@
 
 }
 
+.TypeAnime-container{
+    margin: 1rem 0;
+}
+
 .card-wrapper {
     display: flex;
     justify-content: space-between;
@@ -122,7 +126,6 @@
         inset 5px 5px 10px #2b2a2a;
     transition: 2s ease;
     transition-delay: 1.5s;
-
 }
 
 .i-front{
@@ -147,7 +150,6 @@
     color: var(--head-titles);
     transition: 1s ease;
     transition-delay: 1.2s;
-
 }
 
 .card:hover .i-back{
