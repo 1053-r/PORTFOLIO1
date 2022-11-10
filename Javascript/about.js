@@ -21,7 +21,7 @@ const writeloop = async () =>{
 
         await sleep(sleepTime*15);
 
-        for(let i = curWord.length;i < 0;i-1){
+        for(let i = curWord.length;i > 0;i--){
             el.innerText = curWord.substring(0,i - 1);
             await sleep(sleepTime);
         }
