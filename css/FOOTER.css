@@ -194,12 +194,12 @@
 
 @keyframes social__links2 {10%{color: var(--light);} 20%{color: #4267B2;} 30% ,100%   {color: var(--light);}}
 @keyframes social__links3 {20%{color: var(--light);} 30%{color: #E1306C;} 40% ,100% {color: var(--light);}}
-@keyframes social__links4 {30%{color: var(--light);} 40%{color: #FF0000;} 50% ,100% {color: var(--light);}}
+@keyframes social__links4 {30%{color: var(--light);} 40%{color: #711270;} 50% ,100% {color: var(--light);}}
 @keyframes social__links5 {40%{color: var(--light);} 50%{color: #0077b5;}    60%   {color: var(--light);}}
 
   .social__links:hover:nth-child(2){color: #4267B2;transition:.5s ease-out;}
   .social__links:hover:nth-child(3){color: #E1306C;transition:.5s ease-out;}
-  .social__links:hover:nth-child(4){color: #FF0000;transition:.5s ease-out;}
+  .social__links:hover:nth-child(4){color: #711270;transition:.5s ease-out;}
   .social__links:hover:nth-child(5){color: #0077b5;transition:.5s ease-out;}
 
 
@@ -249,7 +249,7 @@
 
   @keyframes social__icons1 {10%{color: var(--light);} 20%{color: #4267B2;} 30% ,100%   {color: var(--light);}}
   @keyframes social__icons2 {20%{color: var(--light);} 30%{color: #E1306C;} 40% ,100% {color: var(--light);}}
-  @keyframes social__icons3 {30%{color: var(--light);} 40%{color: #FF0000;} 50% ,100% {color: var(--light);}}
+  @keyframes social__icons3 {30%{color: var(--light);} 40%{color: #711270;} 50% ,100% {color: var(--light);}}
   @keyframes social__icons4 {40%{color: var(--light);} 50%{color: #0077b5;}    60%   {color: var(--light);}}
 
 
@@ -296,7 +296,7 @@
     height: 1.5px;
     top: 100%;
     left: 0;
-    background:#FF0000;
+    background:#711270;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform .5s;

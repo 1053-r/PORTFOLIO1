@@ -125,3 +125,6 @@ old hero section
     }
     
 }
+
+
+i will no longer use cards in the service section instead it will be integrated in about section
