@@ -104,6 +104,12 @@
 
 }
 
+.hello{
+    color: var(--light);
+    font-size: 40px;
+    opacity: 0.5;
+}
+
 .TypeAnime-container{
     margin: 1rem 0;
 }
