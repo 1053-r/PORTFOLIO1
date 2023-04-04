@@ -99,7 +99,7 @@ a.hero__J{color: black;}
 #gradient-canvas {
     width: 100%;
     height: 77vh;
-
+    z-index: 0;
     
     position: absolute;
     top: 0;
@@ -107,9 +107,14 @@ a.hero__J{color: black;}
     clip-path: polygon(100% 0%, 0% 0%, 0% 75%, 100% 45%);
 
     --gradient-color-1: #dcdcdc; 
-    --gradient-color-2: #e8175d; 
-    --gradient-color-3: #a8a7a7;
-    --gradient-color-4: #e12255;
+    --gradient-color-2: #e6cdb5; 
+    --gradient-color-3: #a212fc;
+    --gradient-color-4: #fb2171;
+}
+@media screen and (max-width:866px){
+    #gradient-canvas {
+        clip-path: polygon(100% 0%, 0% 0%, 0% 75%, 0% 45%);
+    }
 }
 
 

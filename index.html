@@ -33,9 +33,9 @@
 
 <body>
               <!--header section-->
-
+    <div class="cursor"></div>
     <header>
-        <div class="header__container" id="header">
+        <div class="header__container fade-in" id="header">
             <div class="head-notch"><a class="logo__link" href="#"><p class="logo">-Jassem'-</p> </a></div>
             <div class="head-notch">
               <nav class="nav-links">
@@ -54,7 +54,7 @@
                 <span></span>
             </button>
         </div>
-        <div class="hamb-bg">
+        <div class="hamb-bg fade-in">
             <ul class="hamb-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About </a></li>
@@ -63,23 +63,16 @@
             </ul>
         </div>
     </header>
+    
             <!--(after header section /separator)-->      
     <div class="after__header--container">
       <div class="after__header">
-        <svg id="about" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="url(#grad)" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,64C384,75,480,117,576,154.7C672,192,768,224,864,245.3C960,267,1056,277,1152,245.3C1248,213,1344,139,1392,101.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-          <defs>
-            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" style="stop-color:#e12255;stop-opacity:1" />
-              <stop offset="50%" style="stop-color:#D92B7B;stop-opacity:1" />
-              <stop offset="80%" style="stop-color:#C83291;stop-opacity:1" />
-              <stop offset="100%" style="stop-color:#B43699;stop-opacity:1" />
-            </linearGradient>
-          </defs>
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212121" fill-opacity="1" d="M0,0L34.3,32C68.6,64,137,128,206,170.7C274.3,213,343,235,411,218.7C480,203,549,149,617,106.7C685.7,64,754,32,823,26.7C891.4,21,960,43,1029,90.7C1097.1,139,1166,213,1234,256C1302.9,299,1371,309,1406,314.7L1440,320L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+        <canvas id="gradient-canvas" data-transition-in <path fill="url(#grad)" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,64C384,75,480,117,576,154.7C672,192,768,224,864,245.3C960,267,1056,277,1152,245.3C1248,213,1344,139,1392,101.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>/>
       </div>
     </div>
               <!--about section-->
-<section>
+<section class="about-me">
               <!--about-Separator-->
   <div class="about__sep--bg">
     <div class="service__sep"></div>
@@ -88,10 +81,32 @@
   <div class="wrapper" id="about">
     <div class="about-header"><h1 class="about--title green-text">- Who am I ..?</h1></div>
       <div class="TypeAnime-container">
-        <p class="hello">Hello there! my name is Jassem Ghanmi</p>
+        <p class="hello">Hello there! my name is Jassem'</p>
       </div>
-      <p>i love <span id="typewriter"></span><span id="cursor">|</span></p>
+      <hr class="hr">
+      <p class="typeParagraph fade-in">i love <span id="typewriter"></span><span id="cursor">|</span></p>
     </div>
+    <div class="about-me_content">
+      <div class="row">
+        <div class="col-md-6 fade-in">
+          <p class="fade-in"> I'm a web developer with a passion for creating beautiful and functional websites that provide a great user experience. I have experience in HTML, CSS, JavaScript, and more.</p>
+          <p class="fade-in">When I'm not coding , I'm always looking for ways to learn and grow, both personally and professionally.</p>
+          <p class="fade-in">Here are a few of my key skills:</p>
+          <ul class="skills fade-in">
+            <li class="fade-in">HTML</li>
+            <li class="fade-in">CSS</li>
+            <li class="fade-in">JavaScript</li>
+            <li class="fade-in">React</li>
+          </ul>
+        </div>
+        <div class="col-md-6 fade-in">
+          <div class="image-wrapper">
+            <img src="https://via.placeholder.com/250x250" alt="profile picture">
+          </div>
+        </div>
+      </div>
+    </div>
+  
   </section>
 
               <!--contact me section-->
@@ -103,8 +118,8 @@
 
           <div class="contact__container">
             <div class="contact-position">
-              <p class="contact__p">Let's build you an <u class="awesome__website">Awesome' website</u></p>
-              <button class="contact__button">Contact` me</button>
+              <p class="contact__p fade-in">Let's build you an <u class="awesome__website">Awesome' website</u></p>
+              <button class="contact__button fade-in">Contact` me</button>
             </div>
           </div>
         </div>
@@ -114,6 +129,8 @@
   <section class="footer__container">
       <div class="footer__links">
           <!--footer links section-->
+
+
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
             <h1 class="Footer__titles">| About` me</h1>
@@ -121,7 +138,8 @@
             <a href="#about">about</a>
             <a href="#cv">Resume</a>
           </div>
-          <!--parallax portfolio-->
+
+
           <div class="footer__link--items">
             <h1 class="Footer__titles">| Headline</h1>
             <a href="#">Subline1</a>
@@ -184,6 +202,9 @@
       </section>
     
   </section>
+  
+<script src="./Javascript/animation.js"></script>
+<script src="./Javascript/mouse.js"></script>
 <script src="./Javascript/NavbarHamb.js"></script>
 <script src="./Javascript/gradient.js"></script>
 <script src="./Javascript/about.js"></script>

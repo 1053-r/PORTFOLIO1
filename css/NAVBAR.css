@@ -180,7 +180,7 @@ display: none;
 /*active hamburger section*/
 
 @media screen and (max-width:866px){
-.nav-links{display: none;}
+.nav-links,.cursor{display: none;}
 
 .head-notch{
     background-color: transparent;
@@ -212,7 +212,7 @@ display: none;
 .hamburger{
 display: block;
 position: relative;
-z-index: 1;
+z-index: 10;
 user-select: none;
 appearance: none;
 border: none;
@@ -229,7 +229,7 @@ margin-bottom: 5px;
 position: relative;
 background-color: var(--light);
 border-radius: 6px;
-z-index: 1;
+z-index: 10;
 transform-origin: 0 0;
 transition: 0.5s;
 }
@@ -276,7 +276,6 @@ transform: translate(2px, -3px) rotate(45deg);
 background-color: var(--hamb-spans);
 opacity: 0;
 transform: translateX(15px);
-
 }
 
 .hamburger.is-active span:nth-child(3){
